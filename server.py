@@ -1,7 +1,7 @@
 import socket
 
 HOST = ''
-PORT = '50000'
+PORT = 50000
 
 file = b''
 
