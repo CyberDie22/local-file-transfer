@@ -8,4 +8,4 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
     s.connect((HOST, PORT))
     with open(file, "rb") as f:
         data = f.read()
-        s.sendall(data)`
+        s.sendall(data)
